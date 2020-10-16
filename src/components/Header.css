@@ -1,0 +1,18 @@
+header{
+    background-color: #110b4b;
+    padding: 1rem;
+}
+.nav_menu{
+    max-width: 120rem;
+    margin:0 auto;
+    text-align: center;
+
+}
+@media (min-width: 768px) {
+    .nav_menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}

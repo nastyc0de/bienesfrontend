@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.navLink{
+    color: white;
+    font-family: 'Fredoka One';
+    text-decoration: none;
+    padding: 0 2rem;
+}
+.navLink-active{
+    border-bottom: 2px solid white;
+}
+@media (min-width: 768px) {
+    nav{
+        padding: 0;
+        flex-direction: row;
+    }
+}
